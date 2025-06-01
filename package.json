@@ -2,6 +2,7 @@
   "name": "dfs-mcp",
   "version": "1.0.0",
   "type": "module",
+  "engines": { "node": ">=20" },
   "dependencies": {
     "@skobyn/mcp-dataforseo": "^1.0.2",
     "mcp-proxy": "^1.0.0"
