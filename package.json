@@ -1,0 +1,12 @@
+{
+  "name": "dfs-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@skobyn/mcp-dataforseo": "^1.0.2",
+    "mcp-proxy": "^1.0.0"
+  },
+  "scripts": {
+    "start": "mcp-proxy --stdio \"mcp-dataforseo\" --serverName dataforseo --port 8787"
+  }
+}
